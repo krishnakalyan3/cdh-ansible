@@ -1,5 +1,6 @@
 # CDH Ansible Playbook for Humans
 
+Make sure you have ansible aready installed. I created a playbook to make sure we can easily create a base environment for a CDH cluster.
 
 ```
 # run single commands

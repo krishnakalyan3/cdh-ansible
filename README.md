@@ -2,7 +2,12 @@
 
 Make sure you have ansible aready installed. I created a playbook to make sure we can easily create a base environment for a CDH cluster.
 
-```
+# Steps
+- Edit `hosts` `config` `utils`.
+- Add hosts file to `.ssh`
+- 
+
+ 
 # run single commands
 ansible -i hosts all -b -m ping
 ```

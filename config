@@ -1,0 +1,23 @@
+Host d1
+     Hostname skalyan-test-1.gce.cloudera.com
+     User root
+ 
+ Host d2
+     Hostname skalyan-test-2.gce.cloudera.com
+     User root
+ 
+ Host d3
+     Hostname skalyan-test-3.gce.cloudera.com
+     User root
+ 
+ Host d4
+     Hostname skalyan-test-4.gce.cloudera.com
+     User root
+ 
+ Host d5
+     Hostname skalyan-test-5.gce.cloudera.com
+     User root
+
+Host d6
+    Hostname skalyan-test-6.gce.cloudera.com
+    User root

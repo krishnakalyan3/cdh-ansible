@@ -14,7 +14,7 @@
           - ntp
           - vim
           - git
-          - iperf
+          - iperf3
         state: present
 
     - name: copy pre-requisites

@@ -5,7 +5,7 @@ Make sure you have ansible aready installed. I created a playbook to make sure w
 # Steps
 - Install ansible
 - Edit hosts
-- Run `ansible-playbook -i hosts cluster.yml`
+- Run `ansible-playbook -i hosts cluster.yml -e external_vars.yml`
 
  
 # run single commands

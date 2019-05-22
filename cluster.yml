@@ -60,3 +60,4 @@
           name: vm.swappiness
           value: 1
           state: present
+          sysctl_set: yes

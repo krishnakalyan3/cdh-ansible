@@ -21,7 +21,7 @@ ansible -i hosts all -b -m ping
 
 
 # TODO
-[] MaraiDB Config
-[] Oracle JDK
-[] SQL JDBC Driver
-[] CDH Manager and Agent
+- [] MaraiDB Config
+- [] Oracle JDK
+- [] SQL JDBC Driver
+- [] CDH Manager and Agent

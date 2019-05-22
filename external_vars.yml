@@ -1,8 +1,0 @@
-# https://www.cloudera.com/documentation/enterprise/latest/topics/configure_cm_repo.html
-cdh_repo_6_2=https://archive.cloudera.com/cm6/6.2.0/redhat7/yum/cloudera-manager.repo
-
-# https://www.cloudera.com/documentation/enterprise/release-notes/topics/cm_vd.html
-cdh_repo_5_16=https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/cloudera-manager.repo
-
-# JDKs
-java_jdk_1_7=oracle-j2sdk1.7

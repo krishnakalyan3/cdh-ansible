@@ -5,7 +5,7 @@ Make sure you have ansible aready installed. I created a playbook to make sure w
 # Steps
 - Install ansible
 - Edit hosts
-- Run `ansible-playbook -i hosts cluster.yml -e external_vars.yml`
+- Run `ansible-playbook -i hosts cluster.yml`
 
  
 # run single commands
@@ -16,12 +16,12 @@ ansible -i hosts all -b -m ping
 
 # Tested with
 
-- CentOS 7.5
+- CentOS 7.x
 - CDH 5.x
 
 
 # TODO
-- [  ] MaraiDB Config
-- [  ] Oracle JDK
-- [  ] SQL JDBC Driver
-- [  ] CDH Manager and Agent
+[  ] MaraiDB Config
+[  ] Oracle JDK
+[  ] SQL JDBC Driver
+[  ] CDH Manager and Agent

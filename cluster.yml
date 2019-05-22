@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  remote_user: root
 
   tasks:
     - name: upgrade
@@ -64,23 +63,19 @@
 
     
 - hosts: cm
-  remote_user: root
  
   tasks:
-    - name: upgrade
-      yum:
-        name: "*"
-        state: latest
-
     - name: add cdh repo
-      yum_repository:
-           name: cdh
-           description: custom repositories
-           baseurl: cdh_repo_5_16
+      shell: curl -O https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/cloudera-manager.repo -P /etc/yum.repos.d/
+
+    - name: add rpm key
+      rpm_key:
+        state: present
+        key: https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/RPM-GPG-KEY-cloudera
 
     - name: install java cloudera-manager
       yum:
         name:
-          - java_jdk_1_7
+          - oracle-j2sdk1.7
           - cloudera-manager-daemons
         state: present

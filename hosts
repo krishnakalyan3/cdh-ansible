@@ -11,4 +11,3 @@ skalyan-test-1.gce.cloudera.com
 
 [all:vars]
 ansible_user=root
-

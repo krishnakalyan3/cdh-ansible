@@ -66,7 +66,7 @@
  
   tasks:
     - name: add cdh repo
-      shell: curl -O https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/cloudera-manager.repo -P /etc/yum.repos.d/
+      shell: wget https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/cloudera-manager.repo -P /etc/yum.repos.d/
 
     - name: add rpm key
       rpm_key:

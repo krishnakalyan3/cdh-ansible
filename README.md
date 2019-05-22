@@ -9,6 +9,8 @@ Make sure you have ansible aready installed. I created a playbook to make sure w
 
  
 # run single commands
+
+```
 ansible -i hosts all -b -m ping
 ```
 

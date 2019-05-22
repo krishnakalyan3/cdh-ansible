@@ -61,3 +61,26 @@
           value: 1
           state: present
           sysctl_set: yes
+
+    
+- hosts: cm
+  remote_user: root
+ 
+  tasks:
+    - name: upgrade
+      yum:
+        name: "*"
+        state: latest
+
+    - name: add cdh repo
+      yum_repository:
+           name: cdh
+           description: custom repositories
+           baseurl: cdh_repo_5_16
+
+    - name: install java cloudera-manager
+      yum:
+        name:
+          - java_jdk_1_7
+          - cloudera-manager-daemons
+        state: present

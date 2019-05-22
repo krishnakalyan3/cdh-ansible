@@ -6,15 +6,9 @@ skalyan-test-4.gce.cloudera.com
 skalyan-test-5.gce.cloudera.com
 skalyan-test-6.gce.cloudera.com
 
-[master]
+[cm]
 skalyan-test-1.gce.cloudera.com
-skalyan-test-2.gce.cloudera.com
-skalyan-test-3.gce.cloudera.com
-
-[slave]
-skalyan-test-4.gce.cloudera.com
-skalyan-test-5.gce.cloudera.com
-skalyan-test-6.gce.cloudera.com
 
 [all:vars]
 ansible_user=root
+
